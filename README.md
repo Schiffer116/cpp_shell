@@ -1,5 +1,9 @@
 # Simple shell in cpp
-Implemented
+
+A lightweight interactive shell written in **C++**.
+Supports command execution, pipelines, history, and tab completion.
+
+## ✨ Features
 - Builtins
     - Exit
     - Echo
@@ -7,6 +11,12 @@ Implemented
     - Pwd
     - Cd
 - Single/double quoting
-- IO Redirection
-- Piplines
-- Autocompletion
+- Command execution with output redirection
+- Pipelines (`cmd1 | cmd2 | ...`)
+- Command history & search (via GNU Readline)
+- Tab completion
+
+## ⚙️ Try it out
+Make sure you have **GNU Readline** installed (`libreadline-dev`).
+```bash
+make run
